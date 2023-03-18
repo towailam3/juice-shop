@@ -1,0 +1,197 @@
+{
+  "id": 1,
+  "coupon": null,
+  "UserId": 1,
+  "createdAt": "2023-03-18T12:42:59.571Z",
+  "updatedAt": "2023-03-18T12:42:59.571Z",
+  "Products": [
+    {
+      "id": 1,
+      "name": "Apple Juice (1000ml)",
+      "description": "The all-time classic.",
+      "price": 1.99,
+      "deluxePrice": 0.99,
+      "image": "apple_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.989Z",
+      "updatedAt": "2023-03-18T12:42:57.989Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 1,
+        "BasketId": 1,
+        "id": 1,
+        "quantity": 2,
+        "createdAt": "2023-03-18T12:43:00.028Z",
+        "updatedAt": "2023-03-18T12:43:00.028Z"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Orange Juice (1000ml)",
+      "description": "Made from oranges hand-picked by Uncle Dittmeyer.",
+      "price": 2.99,
+      "deluxePrice": 2.49,
+      "image": "orange_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 2,
+        "BasketId": 1,
+        "id": 2,
+        "quantity": 3,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Eggfruit Juice (500ml)",
+      "description": "Now with even more exotic flavour.",
+      "price": 8.99,
+      "deluxePrice": 8.99,
+      "image": "eggfruit_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 3,
+        "BasketId": 1,
+        "id": 3,
+        "quantity": 1,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    }
+  ]
+}
+{
+  "id": 2,
+  "coupon": null,
+  "UserId": 2,
+  "createdAt": "2023-03-18T12:42:59.571Z",
+  "updatedAt": "2023-03-18T12:42:59.571Z",
+  "Products": [
+    {
+      "id": 4,
+      "name": "Raspberry Juice (1000ml)",
+      "description": "Made from blended Raspberry Pi, water and sugar.",
+      "price": 4.99,
+      "deluxePrice": 4.99,
+      "image": "raspberry_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 4,
+        "BasketId": 2,
+        "id": 4,
+        "quantity": 2,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    }
+  ]
+}
+{
+  "id": 3,
+  "coupon": null,
+  "UserId": 3,
+  "createdAt": "2023-03-18T12:42:59.571Z",
+  "updatedAt": "2023-03-18T12:42:59.571Z",
+  "Products": [
+    {
+      "id": 4,
+      "name": "Raspberry Juice (1000ml)",
+      "description": "Made from blended Raspberry Pi, water and sugar.",
+      "price": 4.99,
+      "deluxePrice": 4.99,
+      "image": "raspberry_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 4,
+        "BasketId": 3,
+        "id": 5,
+        "quantity": 1,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    }
+  ]
+}
+{
+  "id": 4,
+  "coupon": null,
+  "UserId": 11,
+  "createdAt": "2023-03-18T12:42:59.571Z",
+  "updatedAt": "2023-03-18T12:42:59.571Z",
+  "Products": [
+    {
+      "id": 4,
+      "name": "Raspberry Juice (1000ml)",
+      "description": "Made from blended Raspberry Pi, water and sugar.",
+      "price": 4.99,
+      "deluxePrice": 4.99,
+      "image": "raspberry_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 4,
+        "BasketId": 4,
+        "id": 6,
+        "quantity": 2,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    }
+  ]
+}
+{
+  "id": 5,
+  "coupon": null,
+  "UserId": 16,
+  "createdAt": "2023-03-18T12:42:59.571Z",
+  "updatedAt": "2023-03-18T12:42:59.571Z",
+  "Products": [
+    {
+      "id": 3,
+      "name": "Eggfruit Juice (500ml)",
+      "description": "Now with even more exotic flavour.",
+      "price": 8.99,
+      "deluxePrice": 8.99,
+      "image": "eggfruit_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 3,
+        "BasketId": 5,
+        "id": 7,
+        "quantity": 5,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Raspberry Juice (1000ml)",
+      "description": "Made from blended Raspberry Pi, water and sugar.",
+      "price": 4.99,
+      "deluxePrice": 4.99,
+      "image": "raspberry_juice.jpg",
+      "createdAt": "2023-03-18T12:42:57.990Z",
+      "updatedAt": "2023-03-18T12:42:57.990Z",
+      "deletedAt": null,
+      "BasketItem": {
+        "ProductId": 4,
+        "BasketId": 5,
+        "id": 8,
+        "quantity": 2,
+        "createdAt": "2023-03-18T12:43:00.029Z",
+        "updatedAt": "2023-03-18T12:43:00.029Z"
+      }
+    }
+  ]
+}
