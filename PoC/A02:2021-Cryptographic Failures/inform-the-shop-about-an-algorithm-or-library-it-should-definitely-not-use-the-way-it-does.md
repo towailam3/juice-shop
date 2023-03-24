@@ -47,4 +47,20 @@ The request returned a payload with information of the logged off session.
 
 I notice there is a password hash "819b4c0dcec1ec1eaeeea048a87f9f5b" included in the payload, I wonder what hash algorithm it was used. I decided to use different hash algorithms to hash my own password 'towailam3@juice-sh.op' (I used the same string for username and password). 
 
+
+```
+#!/bin/sh
+
+for hash in sha1sum sha224sum sha256sum sha384sum sha512sum shasum md5sum; do
+    echo -n 'towailam3@juice-sh.op' | $hash | grep 819b4c0dcec1ec1eaeeea048a87f9f5b && echo $hash
+done
+```
+
 The result shows that md5, a broken hash algorithm, was used. 
+
+```
+819b4c0dcec1ec1eaeeea048a87f9f5b  -
+md5sum
+```
+
+I informed the juice shop customer service about this vulnerability and the challenge is resolved. 
