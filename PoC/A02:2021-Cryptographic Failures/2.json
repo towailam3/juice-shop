@@ -1,0 +1,15 @@
+{
+    "id": 21,
+    "username": "",
+    "email": "towailam3@juice-sh.op",
+    "password": "819b4c0dcec1ec1eaeeea048a87f9f5b",
+    "role": "customer",
+    "deluxeToken": "",
+    "lastLoginIp": "undefined",
+    "profileImage": "/assets/public/images/uploads/default.svg",
+    "totpSecret": "",
+    "isActive": true,
+    "createdAt": "2023-03-18T13:00:40.243Z",
+    "updatedAt": "2023-03-18T13:40:47.442Z",
+    "deletedAt": null
+}
