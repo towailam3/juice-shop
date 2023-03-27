@@ -1,0 +1,17 @@
+{
+    "user": {
+        "id": 2,
+        "username": "",
+        "email": "jim@juice-sh.op",
+        "password": "e99a18c428cb38d5f260853678922e03",
+        "role": "customer",
+        "deluxeToken": "",
+        "lastLoginIp": "",
+        "profileImage": "assets/public/images/uploads/default.svg",
+        "totpSecret": "",
+        "isActive": true,
+        "createdAt": "2023-03-22T14:41:54.073Z",
+        "updatedAt": "2023-03-23T04:39:42.574Z",
+        "deletedAt": null
+    }
+}

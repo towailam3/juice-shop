@@ -1,0 +1,16 @@
+curl 'https://juice.8-thousander.me/rest/user/security-question?email=jim@juice-sh.op' \
+    -H 'authority: juice.8-thousander.me' \
+    -H 'accept: application/json, text/plain, */*' \
+    -H 'accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh-TW;q=0.7,zh;q=0.6' \
+    -H 'cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=l9wv5QOenYWKdj5twUlTKFNfJSkHgibLf2VFDmhEbu9NHNbAVXD8kmZ6aR3N' \
+    -H 'dnt: 1' \
+    -H 'if-none-match: W/"92-mlPLZ5oDzMmPp1y/TqY+KRpYUqc"' \
+    -H 'referer: https://juice.8-thousander.me/' \
+    -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'sec-ch-ua-platform: "macOS"' \
+    -H 'sec-fetch-dest: empty' \
+    -H 'sec-fetch-mode: cors' \
+    -H 'sec-fetch-site: same-origin' \
+    -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44' \
+    --compressed
