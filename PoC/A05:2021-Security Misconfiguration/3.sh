@@ -1,0 +1,18 @@
+curl 'https://juice.8-thousander.me/api/Users/' \
+    -H 'authority: juice.8-thousander.me' \
+    -H 'accept: application/json, text/plain, */*' \
+    -H 'accept-language: en-US,en;q=0.9' \
+    -H 'content-type: application/json' \
+    -H 'cookie: language=en; welcomebanner_status=dismiss' \
+    -H 'dnt: 1' \
+    -H 'origin: https://juice.8-thousander.me' \
+    -H 'referer: https://juice.8-thousander.me/' \
+    -H 'sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'sec-ch-ua-platform: "macOS"' \
+    -H 'sec-fetch-dest: empty' \
+    -H 'sec-fetch-mode: cors' \
+    -H 'sec-fetch-site: same-origin' \
+    -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36' \
+    --json @2.json \
+    --compressed

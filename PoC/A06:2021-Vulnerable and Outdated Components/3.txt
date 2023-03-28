@@ -1,0 +1,883 @@
+# npm audit report
+
+ajv  <6.12.3
+Severity: moderate
+Prototype Pollution in Ajv - https://github.com/advisories/GHSA-v88g-cgmw-v5xw
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/ajv
+node_modules/sqlite3/node_modules/ajv
+node_modules/standard/node_modules/ajv
+  eslint  4.2.0 - 5.0.0-rc.0 || 1.4.0 - 4.0.0-rc.0
+  Depends on vulnerable versions of ajv
+  Depends on vulnerable versions of shelljs
+  node_modules/eslint
+  node_modules/standard/node_modules/eslint
+    eslint-plugin-import  1.0.0-beta.0 - 2.5.0
+    Depends on vulnerable versions of eslint
+    node_modules/standard/node_modules/eslint-plugin-import
+      standard  3.3.0 || 4.1.0 - 4.3.3 || 6.0.0 - 10.0.3
+      Depends on vulnerable versions of eslint
+      Depends on vulnerable versions of eslint-plugin-import
+      Depends on vulnerable versions of eslint-plugin-react
+      node_modules/standard
+    eslint-plugin-react  6.0.0-alpha.1 - 7.0.1
+    Depends on vulnerable versions of eslint
+    node_modules/standard/node_modules/eslint-plugin-react
+  har-validator  3.3.0 - 5.1.0
+  Depends on vulnerable versions of ajv
+  node_modules/sqlite3/node_modules/har-validator
+    request  *
+    Depends on vulnerable versions of har-validator
+    Depends on vulnerable versions of hawk
+    node_modules/request
+    node_modules/sqlite3/node_modules/request
+      codeclimate-test-reporter  *
+      Depends on vulnerable versions of request
+      node_modules/codeclimate-test-reporter
+      jsdom  <=16.5.3
+      Depends on vulnerable versions of request
+      Depends on vulnerable versions of request-promise-native
+      node_modules/jsdom
+        jest-environment-jsdom  10.0.2 - 25.5.0
+        Depends on vulnerable versions of jest-util
+        Depends on vulnerable versions of jsdom
+        node_modules/jest-environment-jsdom
+          jest-cli  0.10.2 - 25.5.4
+          Depends on vulnerable versions of jest-config
+          Depends on vulnerable versions of jest-environment-jsdom
+          Depends on vulnerable versions of jest-haste-map
+          Depends on vulnerable versions of jest-message-util
+          Depends on vulnerable versions of jest-runner
+          Depends on vulnerable versions of jest-runtime
+          Depends on vulnerable versions of jest-util
+          Depends on vulnerable versions of jest-validate
+          Depends on vulnerable versions of micromatch
+          Depends on vulnerable versions of node-notifier
+          Depends on vulnerable versions of yargs
+          node_modules/jest-cli
+            jest  13.3.0-alpha.4eb0c908 - 23.6.0
+            Depends on vulnerable versions of jest-cli
+            node_modules/jest
+          jest-config  12.1.1-alpha.2935e14d - 25.5.4
+          Depends on vulnerable versions of jest-environment-jsdom
+          Depends on vulnerable versions of jest-environment-node
+          Depends on vulnerable versions of jest-jasmine2
+          Depends on vulnerable versions of jest-util
+          Depends on vulnerable versions of jest-validate
+          node_modules/jest-config
+            jest-runner  21.0.0-alpha.1 - 25.5.4
+            Depends on vulnerable versions of jest-config
+            Depends on vulnerable versions of jest-haste-map
+            Depends on vulnerable versions of jest-jasmine2
+            Depends on vulnerable versions of jest-message-util
+            Depends on vulnerable versions of jest-runtime
+            Depends on vulnerable versions of jest-util
+            node_modules/jest-runner
+            jest-runtime  12.1.1-alpha.2935e14d - 25.5.4
+            Depends on vulnerable versions of babel-core
+            Depends on vulnerable versions of babel-jest
+            Depends on vulnerable versions of babel-plugin-istanbul
+            Depends on vulnerable versions of jest-config
+            Depends on vulnerable versions of jest-haste-map
+            Depends on vulnerable versions of jest-util
+            Depends on vulnerable versions of jest-validate
+            Depends on vulnerable versions of micromatch
+            Depends on vulnerable versions of yargs
+            node_modules/jest-runtime
+            jest-validate  22.4.0 - 23.0.0-charlie.4
+            Depends on vulnerable versions of jest-config
+            node_modules/jest-validate
+      node-gyp  <=7.1.2
+      Depends on vulnerable versions of request
+      Depends on vulnerable versions of tar
+      node_modules/node-gyp
+        iltorb  1.3.9 - 2.0.9
+        Depends on vulnerable versions of node-gyp
+        node_modules/iltorb
+      node-pre-gyp  <=0.8.0
+      Depends on vulnerable versions of hawk
+      Depends on vulnerable versions of request
+      Depends on vulnerable versions of tar
+      Depends on vulnerable versions of tar-pack
+      node_modules/sqlite3/node_modules/node-pre-gyp
+        sqlite3  2.2.0 - 3.1.13
+        Depends on vulnerable versions of node-pre-gyp
+        node_modules/sqlite3
+      phantomjs-prebuilt  *
+      Depends on vulnerable versions of request
+      node_modules/phantomjs-prebuilt
+        karma-phantomjs-launcher  >=1.0.0
+        Depends on vulnerable versions of phantomjs-prebuilt
+        node_modules/karma-phantomjs-launcher
+      request-promise-core  *
+      Depends on vulnerable versions of request
+      node_modules/request-promise-core
+        request-promise-native  >=1.0.0
+        Depends on vulnerable versions of request
+        Depends on vulnerable versions of request-promise-core
+        node_modules/request-promise-native
+      webdriver-manager  *
+      Depends on vulnerable versions of request
+      node_modules/webdriver-manager
+        protractor  >=4.0.0
+        Depends on vulnerable versions of webdriver-manager
+        Depends on vulnerable versions of yargs
+        node_modules/protractor
+  table  3.7.10 - 4.0.2
+  Depends on vulnerable versions of ajv
+  node_modules/standard/node_modules/table
+
+ansi-regex  3.0.0
+Severity: high
+Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/string-width/node_modules/ansi-regex
+node_modules/nyc/node_modules/yargs/node_modules/ansi-regex
+
+base64url  <3.0.0
+Severity: moderate
+Out-of-bounds Read in base64url - https://github.com/advisories/GHSA-rvg8-pwq2-xj7q
+fix available via `npm audit fix --force`
+Will install jsonwebtoken@9.0.0, which is a breaking change
+node_modules/base64url
+  jwa  <=1.1.5
+  Depends on vulnerable versions of base64url
+  node_modules/express-jwt/node_modules/jwa
+    jws  <=3.1.4
+    Depends on vulnerable versions of base64url
+    Depends on vulnerable versions of jwa
+    node_modules/express-jwt/node_modules/jws
+      jsonwebtoken  <=8.5.1
+      Depends on vulnerable versions of jws
+      Depends on vulnerable versions of moment
+      node_modules/express-jwt/node_modules/jsonwebtoken
+      node_modules/jsonwebtoken
+        express-jwt  <=7.7.7
+        Depends on vulnerable versions of jsonwebtoken
+        node_modules/express-jwt
+
+braces  <=2.3.0
+Regular Expression Denial of Service in braces - https://github.com/advisories/GHSA-g95f-p29q-9xw4
+Regular Expression Denial of Service (ReDoS) in braces - https://github.com/advisories/GHSA-cwfw-4gq5-mrqx
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/braces
+node_modules/micromatch/node_modules/braces
+  expand-braces  *
+  Depends on vulnerable versions of braces
+  node_modules/expand-braces
+    karma  <=6.3.15
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of expand-braces
+    Depends on vulnerable versions of lodash
+    Depends on vulnerable versions of log4js
+    Depends on vulnerable versions of optimist
+    Depends on vulnerable versions of socket.io
+    node_modules/karma
+  micromatch  0.2.0 - 2.3.11
+  Depends on vulnerable versions of braces
+  Depends on vulnerable versions of parse-glob
+  node_modules/micromatch
+    anymatch  1.2.0 - 1.3.2
+    Depends on vulnerable versions of micromatch
+    node_modules/anymatch
+      chokidar  1.0.0-rc1 - 2.1.8
+      Depends on vulnerable versions of anymatch
+      Depends on vulnerable versions of glob-parent
+      node_modules/chokidar
+    glob-stream  5.3.0 - 6.1.0
+    Depends on vulnerable versions of glob-parent
+    Depends on vulnerable versions of micromatch
+    node_modules/glob-stream
+      vinyl-fs  >=2.4.2
+      Depends on vulnerable versions of glob-stream
+      node_modules/vinyl-fs
+        lcov-result-merger  1.1.0 - 3.3.0
+        Depends on vulnerable versions of vinyl-fs
+        node_modules/lcov-result-merger
+    jest-haste-map  16.1.0-alpha.691b0e22 - 24.0.0
+    Depends on vulnerable versions of micromatch
+    Depends on vulnerable versions of sane
+    node_modules/jest-haste-map
+    jest-message-util  18.5.0-alpha.7da3df39 - 23.1.0 || 23.4.0 - 24.0.0-alpha.16
+    Depends on vulnerable versions of micromatch
+    node_modules/jest-message-util
+      expect  21.0.0-beta.1 - 22.4.3 || 23.4.0 - 23.6.0
+      Depends on vulnerable versions of jest-message-util
+      node_modules/expect
+        jest-jasmine2  18.5.0-alpha.7da3df39 - 22.4.4 || 23.4.0 - 23.6.0
+        Depends on vulnerable versions of expect
+        Depends on vulnerable versions of jest-message-util
+        Depends on vulnerable versions of jest-util
+        node_modules/jest-jasmine2
+      jest-util  18.5.0-alpha.7da3df39 - 22.4.3 || 23.4.0
+      Depends on vulnerable versions of jest-message-util
+      node_modules/jest-util
+        jest-environment-node  18.5.0-alpha.7da3df39 - 22.4.3 || 23.4.0
+        Depends on vulnerable versions of jest-util
+        node_modules/jest-environment-node
+    test-exclude  <=4.2.3
+    Depends on vulnerable versions of micromatch
+    node_modules/nyc/node_modules/test-exclude
+    node_modules/test-exclude
+      babel-plugin-istanbul  <=5.0.0
+      Depends on vulnerable versions of test-exclude
+      node_modules/babel-plugin-istanbul
+        babel-jest  14.2.0-alpha.ca8bfb6e - 24.0.0-alpha.16
+        Depends on vulnerable versions of babel-plugin-istanbul
+        node_modules/babel-jest
+      nyc  6.2.0-alpha - 13.3.0
+      Depends on vulnerable versions of mkdirp
+      Depends on vulnerable versions of test-exclude
+      Depends on vulnerable versions of yargs
+      Depends on vulnerable versions of yargs-parser
+      node_modules/nyc
+
+clean-css  <4.1.11
+Regular Expression Denial of Service in clean-css - https://github.com/advisories/GHSA-wxhq-pm8v-cw75
+fix available via `npm audit fix --force`
+Will install grunt-angular-templates@1.2.0, which is outside the stated dependency range
+node_modules/clean-css
+  html-minifier  0.6.0 - 3.4.4
+  Depends on vulnerable versions of clean-css
+  node_modules/html-minifier
+    grunt-angular-templates  0.5.6 - 1.1.0
+    Depends on vulnerable versions of html-minifier
+    node_modules/grunt-angular-templates
+
+cryptiles  <=4.1.1
+Severity: critical
+Insufficient Entropy in cryptiles - https://github.com/advisories/GHSA-rq8g-5pc5-wrhr
+Depends on vulnerable versions of boom
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/sqlite3/node_modules/cryptiles
+  hawk  <=9.0.0
+  Depends on vulnerable versions of boom
+  Depends on vulnerable versions of cryptiles
+  Depends on vulnerable versions of hoek
+  Depends on vulnerable versions of sntp
+  node_modules/sqlite3/node_modules/hawk
+
+debug  <=2.6.8
+Severity: high
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+Regular Expression Denial of Service in debug - https://github.com/advisories/GHSA-gxpj-cx7g-858c
+Depends on vulnerable versions of ms
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/karma/node_modules/debug
+node_modules/karma/node_modules/socket.io-parser/node_modules/debug
+  engine.io  <=3.6.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of ws
+  node_modules/engine.io
+  node_modules/karma/node_modules/engine.io
+    socket.io  <=2.4.1
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of engine.io
+    Depends on vulnerable versions of socket.io-adapter
+    Depends on vulnerable versions of socket.io-client
+    Depends on vulnerable versions of socket.io-client
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/karma/node_modules/socket.io
+    node_modules/socket.io
+  engine.io-client  <=3.3.2 || 3.4.0 - 3.5.1 || 4.0.0-alpha.0 - 4.1.3
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of parsejson
+  Depends on vulnerable versions of ws
+  Depends on vulnerable versions of xmlhttprequest-ssl
+  node_modules/engine.io-client
+  node_modules/karma/node_modules/engine.io-client
+    socket.io-client  1.0.0-pre - 2.1.1 || 2.3.0 - 2.3.1 || 3.0.0-rc1 - 3.0.5
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of engine.io-client
+    Depends on vulnerable versions of socket.io-parser
+    node_modules/karma/node_modules/socket.io-client
+    node_modules/socket.io-client
+  socket.io-adapter  <=1.1.0
+  Depends on vulnerable versions of debug
+  Depends on vulnerable versions of socket.io-parser
+  node_modules/karma/node_modules/socket.io-adapter
+  socket.io-parser  <=3.3.2
+  Depends on vulnerable versions of debug
+  node_modules/karma/node_modules/socket.io-parser
+  node_modules/socket.io-parser
+
+decode-uri-component  <0.2.1
+decode-uri-component vulnerable to Denial of Service (DoS) - https://github.com/advisories/GHSA-w573-4hg7-7wgq
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/decode-uri-component
+
+deep-extend  <0.5.1
+Severity: critical
+Prototype Pollution in deep-extend - https://github.com/advisories/GHSA-hr2v-3952-633q
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/deep-extend
+  rc  0.1.0 - 1.2.6
+  Depends on vulnerable versions of deep-extend
+  node_modules/sqlite3/node_modules/rc
+
+dicer  *
+Severity: high
+Crash in HeaderParser in dicer - https://github.com/advisories/GHSA-wm7h-9275-46v2
+No fix available
+node_modules/dicer
+  busboy  <=0.3.1
+  Depends on vulnerable versions of dicer
+  node_modules/busboy
+    multer  <=2.0.0-rc.3
+    Depends on vulnerable versions of busboy
+    node_modules/multer
+
+diff  <3.5.0
+Severity: high
+Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-h6ch-v84p-w6p9
+fix available via `npm audit fix --force`
+Will install mocha@10.2.0, which is a breaking change
+node_modules/mocha/node_modules/diff
+  mocha  0.14.0 - 6.2.2 || 7.0.0-esm1 - 7.1.0
+  Depends on vulnerable versions of diff
+  Depends on vulnerable versions of mkdirp
+  node_modules/mocha
+
+ecstatic  <4.1.3
+Severity: moderate
+Denial of Service in ecstatic - https://github.com/advisories/GHSA-jc84-3g44-wf2q
+fix available via `npm audit fix --force`
+Will install http-server@14.1.1, which is a breaking change
+node_modules/ecstatic
+  http-server  0.4.0 - 0.12.3
+  Depends on vulnerable versions of ecstatic
+  Depends on vulnerable versions of optimist
+  Depends on vulnerable versions of union
+  node_modules/http-server
+
+
+
+extend  3.0.0 - 3.0.1
+Severity: moderate
+Prototype Pollution in extend - https://github.com/advisories/GHSA-qrmc-fj45-qfc2
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/extend
+
+fstream  <1.0.12
+Severity: high
+Arbitrary File Overwrite in fstream - https://github.com/advisories/GHSA-xf7w-r453-m56c
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/fstream
+
+getobject  0.1.0
+Severity: critical
+Prototype pollution vulnerability in 'getobject' - https://github.com/advisories/GHSA-957j-59c2-j692
+fix available via `npm audit fix --force`
+Will install grunt@1.6.1, which is outside the stated dependency range
+node_modules/getobject
+  grunt-legacy-util  <=2.0.0
+  Depends on vulnerable versions of getobject
+  node_modules/grunt-legacy-util
+    grunt  <=1.5.2
+    Depends on vulnerable versions of grunt-legacy-util
+    node_modules/grunt
+
+glob-parent  <5.1.2
+Severity: high
+glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex - https://github.com/advisories/GHSA-ww39-953v-wcq6
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/glob-parent
+node_modules/glob-stream/node_modules/glob-parent
+  glob-base  *
+  Depends on vulnerable versions of glob-parent
+  node_modules/glob-base
+    parse-glob  >=2.1.0
+    Depends on vulnerable versions of glob-base
+    node_modules/parse-glob
+
+got  <11.8.5
+Severity: moderate
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+fix available via `npm audit fix --force`
+Will install package.json@0.0.0, which is a breaking change
+node_modules/got
+  package-json  <=6.5.0
+  Depends on vulnerable versions of got
+  node_modules/package-json
+    package.json  >=1.0.0
+    Depends on vulnerable versions of git-package-json
+    Depends on vulnerable versions of git-source
+    Depends on vulnerable versions of package-json
+    node_modules/package.json
+
+
+gry  <6.0.0
+Severity: high
+gry vulnerable to Command Injection - https://github.com/advisories/GHSA-w5mw-f2hq-5fw8
+fix available via `npm audit fix`
+node_modules/gry
+  git-package-json  *
+  Depends on vulnerable versions of gry
+  node_modules/git-package-json
+
+handlebars  <=4.7.6
+Severity: critical
+Arbitrary Code Execution in handlebars - https://github.com/advisories/GHSA-q2c6-c6pm-g3gh
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-g9r4-xpmj-mj65
+Arbitrary Code Execution in handlebars - https://github.com/advisories/GHSA-2cf5-4w76-r9qv
+Denial of Service in handlebars - https://github.com/advisories/GHSA-f52g-6jhx-586p
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-q42p-pg8m-cqh6
+Remote code execution in handlebars when compiling templates - https://github.com/advisories/GHSA-f2jv-r9rf-7988
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-765h-qjxv-5f44
+Regular Expression Denial of Service in Handlebars - https://github.com/advisories/GHSA-62gr-4qp9-h98f
+Arbitrary Code Execution in Handlebars - https://github.com/advisories/GHSA-3cqr-58rm-57f8
+Prototype Pollution in handlebars - https://github.com/advisories/GHSA-w457-6q6x-cgp9
+Depends on vulnerable versions of optimist
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/handlebars
+
+
+helmet-csp  1.2.2 - 2.9.0
+Severity: moderate
+Configuration Override in helmet-csp - https://github.com/advisories/GHSA-c3m8-x3cg-qm2c
+fix available via `npm audit fix --force`
+Will install helmet@3.23.3, which is outside the stated dependency range
+node_modules/helmet-csp
+  helmet  2.1.2 - 3.20.1
+  Depends on vulnerable versions of helmet-csp
+  node_modules/helmet
+
+hoek  <4.2.1
+Severity: moderate
+Prototype Pollution in hoek - https://github.com/advisories/GHSA-jp4x-w63m-7wgm
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/sqlite3/node_modules/hoek
+  boom  <=3.1.2
+  Depends on vulnerable versions of hoek
+  node_modules/sqlite3/node_modules/boom
+  sntp  0.0.0 || 0.1.1 - 2.0.0
+  Depends on vulnerable versions of hoek
+  node_modules/sqlite3/node_modules/sntp
+
+hosted-git-info  <2.8.9
+Severity: moderate
+Regular Expression Denial of Service in hosted-git-info - https://github.com/advisories/GHSA-43f8-2h32-f4cj
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/hosted-git-info
+
+ini  <1.3.6
+Severity: high
+ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/ini
+
+js-yaml  <=3.13.0
+Severity: high
+Denial of Service in js-yaml - https://github.com/advisories/GHSA-2pr6-76vf-7546
+Code Injection in js-yaml - https://github.com/advisories/GHSA-8j8c-7jfh-h6hx
+fix available via `npm audit fix --force`
+Will install js-yaml@3.14.1, which is outside the stated dependency range
+node_modules/js-yaml
+
+
+json-schema  <0.4.0
+Severity: critical
+json-schema is vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-896r-f27r-55mw
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/json-schema
+  jsprim  0.3.0 - 1.4.1 || 2.0.0 - 2.0.1
+  Depends on vulnerable versions of json-schema
+  node_modules/sqlite3/node_modules/jsprim
+
+json5  <1.0.2
+Severity: high
+Prototype Pollution in JSON5 via Parse Method - https://github.com/advisories/GHSA-9c47-m6qq-7p4h
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/babel-core/node_modules/json5
+node_modules/json5
+  babel-core  5.8.20 - 7.0.0-beta.3
+  Depends on vulnerable versions of babel-register
+  Depends on vulnerable versions of json5
+  node_modules/babel-core
+    babel-register  *
+    Depends on vulnerable versions of babel-core
+    node_modules/babel-register
+  config  1.19.0 - 1.30.0
+  Depends on vulnerable versions of json5
+  node_modules/config
+
+
+
+
+kind-of  6.0.0 - 6.0.2
+Severity: high
+Validation Bypass in kind-of - https://github.com/advisories/GHSA-6c8f-qphg-qjgp
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/base/node_modules/kind-of
+node_modules/nyc/node_modules/define-property/node_modules/kind-of
+node_modules/nyc/node_modules/extglob/node_modules/kind-of
+node_modules/nyc/node_modules/micromatch/node_modules/kind-of
+node_modules/nyc/node_modules/nanomatch/node_modules/kind-of
+node_modules/nyc/node_modules/snapdragon-node/node_modules/kind-of
+node_modules/nyc/node_modules/test-exclude/node_modules/kind-of
+node_modules/nyc/node_modules/use/node_modules/kind-of
+
+libxmljs  <0.19.8
+Severity: high
+Denial of service vulnerability exists in libxmljs - https://github.com/advisories/GHSA-773h-w45w-f2f9
+fix available via `npm audit fix --force`
+Will install libxmljs@0.19.10, which is a breaking change
+node_modules/libxmljs
+
+lodash  <=4.17.20
+Severity: critical
+Regular Expression Denial of Service (ReDoS) in lodash - https://github.com/advisories/GHSA-x5rq-j2xg-h7qm
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-4xc9-xhrj-v574
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-fvqr-27wr-82fm
+Regular Expression Denial of Service (ReDoS) in lodash - https://github.com/advisories/GHSA-29mw-wpgm-hmr9
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-jf85-cpcp-j695
+Command Injection in lodash - https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-p6mc-m468-83gw
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/karma/node_modules/lodash
+node_modules/nyc/node_modules/lodash
+node_modules/sanitize-html/node_modules/lodash
+  sanitize-html  <=2.3.1
+  Depends on vulnerable versions of lodash
+  node_modules/sanitize-html
+
+log4js  <6.4.0
+Severity: moderate
+Incorrect Default Permissions in log4js - https://github.com/advisories/GHSA-82v2-mx6x-wq7q
+fix available via `npm audit fix`
+node_modules/log4js
+node_modules/stryker/node_modules/log4js
+  stryker  >=0.3.1
+  Depends on vulnerable versions of log4js
+  Depends on vulnerable versions of typed-rest-client
+  node_modules/stryker
+
+marsdb  *
+Severity: critical
+Command Injection in marsdb - https://github.com/advisories/GHSA-5mrr-rgp6-x4gr
+No fix available
+node_modules/marsdb
+
+mem  <4.0.0
+Severity: moderate
+Denial of Service in mem - https://github.com/advisories/GHSA-4xcv-9jjx-gfj3
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/mem
+node_modules/nyc/node_modules/mem
+  os-locale  2.0.0 - 3.0.0
+  Depends on vulnerable versions of mem
+  node_modules/nyc/node_modules/os-locale
+  node_modules/os-locale
+    yargs  8.0.0-candidate.0 - 12.0.5
+    Depends on vulnerable versions of os-locale
+    Depends on vulnerable versions of yargs-parser
+    node_modules/nyc/node_modules/yargs
+    node_modules/protractor/node_modules/yargs
+    node_modules/yargs
+
+merge  <2.1.1
+Severity: high
+Prototype Pollution in merge - https://github.com/advisories/GHSA-7wpw-2hjm-89gp
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/merge
+  exec-sh  <=0.3.1
+  Depends on vulnerable versions of merge
+  node_modules/exec-sh
+    sane  1.0.4 - 4.0.2
+    Depends on vulnerable versions of exec-sh
+    Depends on vulnerable versions of watch
+    node_modules/sane
+    watch  >=0.14.0
+    Depends on vulnerable versions of exec-sh
+    node_modules/watch
+
+minimatch  <=3.0.4
+Severity: high
+Regular Expression Denial of Service in minimatch - https://github.com/advisories/GHSA-hxm2-r34f-qmc5
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+fix available via `npm audit fix --force`
+Will install replace@1.2.2, which is a breaking change
+node_modules/nyc/node_modules/minimatch
+node_modules/replace/node_modules/minimatch
+node_modules/sqlite3/node_modules/minimatch
+  replace  0.2.3 - 1.2.1
+  Depends on vulnerable versions of minimatch
+  Depends on vulnerable versions of nomnom
+  node_modules/replace
+
+minimist  <=0.2.3 || 1.0.0 - 1.2.5
+Severity: critical
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-xvch-5gv4-984h
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-xvch-5gv4-984h
+fix available via `npm audit fix --force`
+Will install mocha@10.2.0, which is a breaking change
+node_modules/mocha/node_modules/minimist
+node_modules/nyc/node_modules/minimist
+node_modules/optimist/node_modules/minimist
+node_modules/sqlite3/node_modules/minimist
+node_modules/sqlite3/node_modules/rc/node_modules/minimist
+  mkdirp  0.4.1 - 0.5.1
+  Depends on vulnerable versions of minimist
+  node_modules/mocha/node_modules/mkdirp
+  node_modules/nyc/node_modules/mkdirp
+  node_modules/sqlite3/node_modules/mkdirp
+  optimist  >=0.6.0
+  Depends on vulnerable versions of minimist
+  node_modules/nyc/node_modules/optimist
+  node_modules/optimist
+
+mixin-deep  <1.3.2
+Severity: critical
+Prototype Pollution in mixin-deep - https://github.com/advisories/GHSA-fhjf-83wg-r2j9
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/mixin-deep
+
+moment  <=2.29.1
+Severity: high
+Regular Expression Denial of Service in moment - https://github.com/advisories/GHSA-446m-mv8f-q348
+Regular Expression Denial of Service in moment - https://github.com/advisories/GHSA-87vv-r9j6-g5qv
+Path Traversal: 'dir/../../filename' in moment.locale - https://github.com/advisories/GHSA-8hfj-j24r-96c4
+fix available via `npm audit fix --force`
+Will install jsonwebtoken@9.0.0, which is a breaking change
+node_modules/express-jwt/node_modules/moment
+
+ms  <2.0.0
+Severity: moderate
+Vercel ms Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-w9mr-4mfr-499f
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/karma/node_modules/ms
+node_modules/karma/node_modules/socket.io-parser/node_modules/ms
+
+node-fetch  <=2.6.6
+Severity: high
+The `size` option isn't honored after following a redirect in node-fetch - https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+node-fetch is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor - https://github.com/advisories/GHSA-r683-j2x4-v87g
+fix available via `npm audit fix --force`
+Will install frisby@2.1.3, which is outside the stated dependency range
+node_modules/node-fetch
+  frisby  2.0.0-alpha.1 - 2.0.16
+  Depends on vulnerable versions of node-fetch
+  node_modules/frisby
+
+node-notifier  <8.0.1
+Severity: moderate
+OS Command Injection in node-notifier - https://github.com/advisories/GHSA-5fw9-fq32-wv5p
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/node-notifier
+
+parse-url  <=8.0.0
+Severity: critical
+Cross site scripting in parse-url - https://github.com/advisories/GHSA-q6wq-5p59-983w
+Server-Side Request Forgery in parse-url - https://github.com/advisories/GHSA-7f3x-x4pr-wqhj
+Cross site scripting in parse-url - https://github.com/advisories/GHSA-jpp7-7chh-cf67
+Hostname confusion in parse-url - https://github.com/advisories/GHSA-4p35-cfcx-8653
+parse-url parses http URLs incorrectly, making it vulnerable to host name spoofing - https://github.com/advisories/GHSA-pqw5-jmp5-px4v
+Server-Side Request Forgery (SSRF) in GitHub repository ionicabizau/parse-url  - https://github.com/advisories/GHSA-j9fq-vwqv-2fm2
+fix available via `npm audit fix`
+node_modules/parse-url
+  git-up  <=4.0.3
+  Depends on vulnerable versions of parse-url
+  node_modules/git-up
+    git-url-parse  4.0.0 - 10.1.0
+    Depends on vulnerable versions of git-up
+    node_modules/git-url-parse
+      git-source  *
+      Depends on vulnerable versions of git-url-parse
+      node_modules/git-source
+
+parsejson  *
+Severity: high
+Regular Expression Denial of Service in parsejson - https://github.com/advisories/GHSA-q75g-2496-mxpp
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/parsejson
+
+path-parse  <1.0.7
+Severity: moderate
+Regular Expression Denial of Service in path-parse - https://github.com/advisories/GHSA-hj48-42vr-x3v9
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/path-parse
+
+qs  <=6.2.3 || 6.4.0 || 6.5.0 - 6.5.2
+Severity: high
+Prototype Pollution Protection Bypass in qs - https://github.com/advisories/GHSA-gqgv-6jq5-jjj9
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+fix available via `npm audit fix --force`
+Will install http-server@14.1.1, which is a breaking change
+node_modules/qs
+node_modules/sqlite3/node_modules/qs
+node_modules/union/node_modules/qs
+  body-parser  1.18.0 - 1.18.3
+  Depends on vulnerable versions of qs
+  node_modules/body-parser
+    express  4.15.4 - 4.16.4 || 5.0.0-alpha.1 - 5.0.0-alpha.7
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of qs
+    node_modules/express
+  union  0.1.2 - 0.4.6
+  Depends on vulnerable versions of qs
+  node_modules/union
+
+
+
+sequelize  <=6.28.2 || >=7.0.0-alpha.1
+Severity: critical
+Sequelize vulnerable to SQL Injection via replacements - https://github.com/advisories/GHSA-wrh9-cjv3-2hpw
+Sequelize information disclosure vulnerability - https://github.com/advisories/GHSA-8c25-f3mj-v6h8
+Unsafe fall-through in getWhereConditions - https://github.com/advisories/GHSA-vqfx-gj96-3w95
+Sequelize - Default support for “raw attributes” when using parentheses - https://github.com/advisories/GHSA-f598-mfpv-gmfx
+Depends on vulnerable versions of validator
+fix available via `npm audit fix --force`
+Will install sequelize@6.30.0, which is a breaking change
+node_modules/sequelize
+
+set-value  <=2.0.0
+Severity: critical
+Prototype Pollution in set-value - https://github.com/advisories/GHSA-4jqc-8m5r-9rpr
+Prototype Pollution in set-value - https://github.com/advisories/GHSA-4g88-fppr-53pp
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/set-value
+node_modules/nyc/node_modules/union-value/node_modules/set-value
+  union-value  <=1.0.0 || 2.0.0
+  Depends on vulnerable versions of set-value
+  node_modules/nyc/node_modules/union-value
+
+shelljs  <=0.8.4
+Severity: high
+Improper Privilege Management in shelljs - https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+Improper Privilege Management in shelljs - https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+fix available via `npm audit fix --force`
+Will install shelljs@0.8.5, which is a breaking change
+node_modules/shelljs
+
+
+
+sshpk  <1.13.2
+Severity: high
+Regular Expression Denial of Service in sshpk - https://github.com/advisories/GHSA-2m39-62fm-q8r3
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/sshpk
+
+stringstream  <0.0.6
+Severity: moderate
+Out-of-bounds Read in stringstream - https://github.com/advisories/GHSA-mf6x-7mm4-x2g7
+fix available via `npm audit fix`
+node_modules/sqlite3/node_modules/stringstream
+
+tar  <=4.4.17
+Severity: high
+Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization - https://github.com/advisories/GHSA-3jfq-g458-7qm9
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning - https://github.com/advisories/GHSA-r628-mhmh-qjhw
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links - https://github.com/advisories/GHSA-9r2w-394v-53qc
+Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization - https://github.com/advisories/GHSA-5955-9wpr-37jh
+Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links - https://github.com/advisories/GHSA-qq89-hq3f-393p
+Arbitrary File Overwrite in tar - https://github.com/advisories/GHSA-j44m-qm6p-hp7m
+fix available via `npm audit fix --force`
+Will install sqlite3@5.1.6, which is a breaking change
+node_modules/sqlite3/node_modules/tar
+node_modules/tar
+  tar-pack  *
+  Depends on vulnerable versions of tar
+  node_modules/sqlite3/node_modules/tar-pack
+
+trim-newlines  <3.0.1
+Severity: high
+Uncontrolled Resource Consumption in trim-newlines - https://github.com/advisories/GHSA-7p7h-4mm5-852v
+fix available via `npm audit fix`
+node_modules/trim-newlines
+  meow  3.4.0 - 5.0.0
+  Depends on vulnerable versions of trim-newlines
+  node_modules/meow
+
+underscore  1.3.2 - 1.12.0
+Severity: critical
+Arbitrary Code Execution in underscore - https://github.com/advisories/GHSA-cf4h-3jhx-xvhq
+fix available via `npm audit fix --force`
+Will install replace@1.2.2, which is a breaking change
+node_modules/typed-rest-client/node_modules/underscore
+node_modules/underscore
+  nomnom  >=1.6.0
+  Depends on vulnerable versions of underscore
+  node_modules/nomnom
+  typed-rest-client  <=1.8.3
+  Depends on vulnerable versions of underscore
+  node_modules/typed-rest-client
+
+validator  <13.7.0
+Severity: moderate
+Inefficient Regular Expression Complexity in validator.js - https://github.com/advisories/GHSA-qgmg-gppg-76g5
+fix available via `npm audit fix --force`
+Will install sequelize@6.30.0, which is a breaking change
+node_modules/validator
+
+ws  <=1.1.4
+Severity: high
+Denial of Service in ws - https://github.com/advisories/GHSA-5v72-xg48-5rpm
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/karma/node_modules/ws
+
+xmldom  *
+Severity: critical
+Misinterpretation of malicious XML input - https://github.com/advisories/GHSA-5fg8-2547-mr8q
+xmldom allows multiple root nodes in a DOM - https://github.com/advisories/GHSA-crh6-fp67-6883
+Misinterpretation of malicious XML input - https://github.com/advisories/GHSA-h6q6-9hqw-rwfv
+fix available via `npm audit fix --force`
+Will install jasmine-reporters@2.5.2, which is outside the stated dependency range
+node_modules/xmldom
+  jasmine-reporters  2.2.0 - 2.4.0
+  Depends on vulnerable versions of xmldom
+  node_modules/jasmine-reporters
+
+xmlhttprequest-ssl  <=1.6.1
+Severity: critical
+Improper Certificate Validation in xmlhttprequest-ssl - https://github.com/advisories/GHSA-72mh-269x-7mh5
+Arbitrary Code Injection - https://github.com/advisories/GHSA-h4j5-c7cj-74xg
+fix available via `npm audit fix --force`
+Will install karma@6.4.1, which is a breaking change
+node_modules/karma/node_modules/xmlhttprequest-ssl
+node_modules/xmlhttprequest-ssl
+
+y18n  <3.2.2
+Severity: high
+Prototype Pollution in y18n - https://github.com/advisories/GHSA-c4w7-xm78-47vh
+fix available via `npm audit fix`
+node_modules/nyc/node_modules/y18n
+
+yargs-parser  6.0.0 - 13.1.1
+Severity: moderate
+yargs-parser Vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-p9pc-299p-vxgp
+fix available via `npm audit fix --force`
+Will install jest@29.5.0, which is a breaking change
+node_modules/nyc/node_modules/yargs-parser
+node_modules/nyc/node_modules/yargs/node_modules/yargs-parser
+node_modules/protractor/node_modules/yargs-parser
+node_modules/yargs-parser
+
+157 vulnerabilities (15 low, 45 moderate, 63 high, 34 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
