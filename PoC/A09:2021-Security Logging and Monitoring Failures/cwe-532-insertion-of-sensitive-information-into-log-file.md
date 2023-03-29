@@ -10,16 +10,4 @@ curl -i -s -k -X  'GET'  \
 
 the alert is related to a sql injection vulnerability. here is the output of that request. 
 
-```
-{
-  "error": {
-    "message": "SQLITE_ERROR: near \"(\": syntax error",
-    "stack": "Error: SQLITE_ERROR: near \"(\": syntax error",
-    "errno": 1,
-    "code": "SQLITE_ERROR",
-    "sql": "SELECT * FROM Products WHERE ((name LIKE '%'(%' OR description LIKE '%'(%') AND deletedAt IS NULL) ORDER BY name"
-  }
-}
-```
-
 apparaently, even without the sql injection, the response is a violation of CWE-532 https://cwe.mitre.org/data/definitions/532.html, which is a CWS mapped to A09:2021 Security Logging and Monitoring Failures, as the error message exposed the table information of the underlying rdbms and the query logic, which attacker can leverage to craft more sophisticated attack. 

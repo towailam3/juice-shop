@@ -1,0 +1,9 @@
+{
+    "error": {
+        "message": "SQLITE_ERROR: near \"(\": syntax error",
+        "stack": "Error: SQLITE_ERROR: near \"(\": syntax error",
+        "errno": 1,
+        "code": "SQLITE_ERROR",
+        "sql": "SELECT * FROM Products WHERE ((name LIKE '%'(%' OR description LIKE '%'(%') AND deletedAt IS NULL) ORDER BY name"
+    }
+}
