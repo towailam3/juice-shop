@@ -1,0 +1,15 @@
+curl 'https://juice.8-thousander.me/assets/public/images/uploads/1.png' \
+    -H 'authority: juice.8-thousander.me' \
+    -H 'accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+    -H 'accept-language: en,en-US;q=0.9,zh-TW;q=0.8,zh-CN;q=0.7,zh;q=0.6' \
+    -H 'cookie: language=en; welcomebanner_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIxNzIuMTkuMC4zIiwicHJvZmlsZUltYWdlIjoiYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0QWRtaW4ucG5nIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTAzLTI3IDIzOjQyOjM4Ljg0OCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIzLTAzLTI4IDAyOjUzOjM1LjExNyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2ODAxMzMzMTcsImV4cCI6MTY4MDE1MTMxN30.uuVH-wXgr3LSfqgOuyzFSmDZRmpVZTRBIsoALOsqEDITAtVALh5jLt2UGyJtBh1kHMjMaJeQCDZiqcxkidJ50E4GeCOcvAbiT5U6HXRpjLeUU2y8zzxsY0c0NzUeObh3ovhw0RRsjftXeF_AnO_rz4j85AHPvFeBmZRdsXpAlEw' \
+    -H 'dnt: 1' \
+    -H 'referer: https://juice.8-thousander.me/profile' \
+    -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'sec-ch-ua-platform: "macOS"' \
+    -H 'sec-fetch-dest: image' \
+    -H 'sec-fetch-mode: no-cors' \
+    -H 'sec-fetch-site: same-origin' \
+    -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54' \
+    --compressed

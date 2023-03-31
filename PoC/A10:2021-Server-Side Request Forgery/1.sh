@@ -1,0 +1,21 @@
+curl 'https://juice.8-thousander.me/profile/image/url' \
+    -H 'authority: juice.8-thousander.me' \
+    -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+    -H 'accept-language: en,en-US;q=0.9,zh-TW;q=0.8,zh-CN;q=0.7,zh;q=0.6' \
+    -H 'cache-control: max-age=0' \
+    -H 'content-type: application/x-www-form-urlencoded' \
+    -H 'cookie: language=en; welcomebanner_status=dismiss; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIxNzIuMTkuMC4zIiwicHJvZmlsZUltYWdlIjoiYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0QWRtaW4ucG5nIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTAzLTI3IDIzOjQyOjM4Ljg0OCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIzLTAzLTI4IDAyOjUzOjM1LjExNyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2ODAxMzMzMTcsImV4cCI6MTY4MDE1MTMxN30.uuVH-wXgr3LSfqgOuyzFSmDZRmpVZTRBIsoALOsqEDITAtVALh5jLt2UGyJtBh1kHMjMaJeQCDZiqcxkidJ50E4GeCOcvAbiT5U6HXRpjLeUU2y8zzxsY0c0NzUeObh3ovhw0RRsjftXeF_AnO_rz4j85AHPvFeBmZRdsXpAlEw' \
+    -H 'dnt: 1' \
+    -H 'origin: https://juice.8-thousander.me' \
+    -H 'referer: https://juice.8-thousander.me/profile' \
+    -H 'sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'sec-ch-ua-platform: "macOS"' \
+    -H 'sec-fetch-dest: document' \
+    -H 'sec-fetch-mode: navigate' \
+    -H 'sec-fetch-site: same-origin' \
+    -H 'sec-fetch-user: ?1' \
+    -H 'upgrade-insecure-requests: 1' \
+    -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54' \
+    --data-raw 'imageUrl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb3%2FWikipedia-logo-v2-en.svg%2F1200px-Wikipedia-logo-v2-en.svg.png' \
+    --compressed
