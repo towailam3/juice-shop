@@ -1,0 +1,28 @@
+> semgrep --config auto ./src
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 16 files tracked by git with 1065 Code rules:
+                                                                                                                        
+  Language      Rules   Files          Origin      Rules                                                                
+ ─────────────────────────────        ───────────────────                                                               
+  <multilang>      69      26          Community    1065                                                                
+  java            116      10                                                                                           
+  html              1       1                                                                                           
+                                                                                                                        
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00                                                                                                                        
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+Some files were skipped or only partially analyzed.
+  Scan was limited to files tracked by git.
+  Scan skipped: 3 files matching .semgrepignore patterns
+  For a full list of skipped files, run semgrep with the --verbose flag.
+
+Ran 1065 rules on 13 files: 0 findings.
+If Semgrep missed a finding, please send us feedback to let us know!
+  $ semgrep shouldafound --help

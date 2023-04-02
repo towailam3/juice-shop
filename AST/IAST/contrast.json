@@ -1,0 +1,172 @@
+{
+    "success": true,
+    "messages": [
+        "Organization vulnerabilities and sink groups loaded successfully"
+    ],
+    "items": [
+        {
+            "vulnerability": {
+                "uuid": "CUHR-DK1X-RBRX-MY77",
+                "title": "'MD5' hash algorithm used at Digester.java",
+                "ruleName": "crypto-bad-mac",
+                "visible": true,
+                "severity": "MEDIUM",
+                "defaultSeverity": "MEDIUM",
+                "tags": [],
+                "application": {
+                    "mostPermissiveRole": "ADMIN",
+                    "id": "7dc9e3ab-922d-4ae4-9fba-8a777fdf968d",
+                    "name": "nosql-injection-vulnapp-mongodb-java",
+                    "isLicensed": true,
+                    "language": "Java",
+                    "contextPath": "/",
+                    "importance": "MEDIUM",
+                    "isParentApp": false
+                },
+                "lastDetected": 1680403860000,
+                "firstDetected": 1680403860000,
+                "status": "Reported",
+                "subStatus": "",
+                "violations": [],
+                "sessionMetadata": []
+            }
+        },
+        {
+            "vulnerability": {
+                "uuid": "PNYN-M2A2-GNTE-LI1N",
+                "title": "'SHA-1' hash algorithm used at Digester.java",
+                "ruleName": "crypto-bad-mac",
+                "visible": true,
+                "severity": "MEDIUM",
+                "defaultSeverity": "MEDIUM",
+                "tags": [],
+                "application": {
+                    "mostPermissiveRole": "ADMIN",
+                    "id": "7dc9e3ab-922d-4ae4-9fba-8a777fdf968d",
+                    "name": "nosql-injection-vulnapp-mongodb-java",
+                    "isLicensed": true,
+                    "language": "Java",
+                    "contextPath": "/",
+                    "importance": "MEDIUM",
+                    "isParentApp": false
+                },
+                "lastDetected": 1680403860000,
+                "firstDetected": 1680403860000,
+                "status": "Reported",
+                "subStatus": "",
+                "violations": [],
+                "sessionMetadata": []
+            }
+        },
+        {
+            "vulnerability": {
+                "uuid": "OH95-XPTG-GX2O-4BZZ",
+                "title": "Application Disables 'secure' Flag on Cookies observed at Response.java (JSESSIONID)",
+                "ruleName": "cookie-flags-missing",
+                "visible": true,
+                "severity": "MEDIUM",
+                "defaultSeverity": "MEDIUM",
+                "tags": [],
+                "application": {
+                    "mostPermissiveRole": "ADMIN",
+                    "id": "7dc9e3ab-922d-4ae4-9fba-8a777fdf968d",
+                    "name": "nosql-injection-vulnapp-mongodb-java",
+                    "isLicensed": true,
+                    "language": "Java",
+                    "contextPath": "/",
+                    "importance": "MEDIUM",
+                    "isParentApp": false
+                },
+                "lastDetected": 1680404220000,
+                "firstDetected": 1680403980000,
+                "status": "Reported",
+                "subStatus": "",
+                "violations": [],
+                "sessionMetadata": []
+            }
+        },
+        {
+            "vulnerability": {
+                "uuid": "U67Q-FQAV-TABO-WN4Y",
+                "title": "Insecure Authentication Protocol",
+                "ruleName": "insecure-auth-protocol",
+                "visible": true,
+                "severity": "MEDIUM",
+                "defaultSeverity": "MEDIUM",
+                "tags": [],
+                "application": {
+                    "mostPermissiveRole": "ADMIN",
+                    "id": "7dc9e3ab-922d-4ae4-9fba-8a777fdf968d",
+                    "name": "nosql-injection-vulnapp-mongodb-java",
+                    "isLicensed": true,
+                    "language": "Java",
+                    "contextPath": "/",
+                    "importance": "MEDIUM",
+                    "isParentApp": false
+                },
+                "lastDetected": 1680404280000,
+                "firstDetected": 1680403980000,
+                "status": "Reported",
+                "subStatus": "",
+                "violations": [],
+                "sessionMetadata": []
+            }
+        },
+        {
+            "vulnerability": {
+                "uuid": "1N0Z-7DIO-SHHR-XINH",
+                "title": "Anti-Caching Controls Missing detected",
+                "ruleName": "cache-controls-missing",
+                "visible": true,
+                "severity": "NOTE",
+                "defaultSeverity": "NOTE",
+                "tags": [],
+                "application": {
+                    "mostPermissiveRole": "ADMIN",
+                    "id": "7dc9e3ab-922d-4ae4-9fba-8a777fdf968d",
+                    "name": "nosql-injection-vulnapp-mongodb-java",
+                    "isLicensed": true,
+                    "language": "Java",
+                    "contextPath": "/",
+                    "importance": "MEDIUM",
+                    "isParentApp": false
+                },
+                "lastDetected": 1680404280000,
+                "firstDetected": 1680403980000,
+                "status": "Reported",
+                "subStatus": "",
+                "violations": [],
+                "sessionMetadata": []
+            }
+        },
+        {
+            "vulnerability": {
+                "uuid": "F45U-3U0Y-RX34-IE8K",
+                "title": "Pages Without Anti-Clickjacking Controls detected",
+                "ruleName": "clickjacking-control-missing",
+                "visible": true,
+                "severity": "NOTE",
+                "defaultSeverity": "NOTE",
+                "tags": [],
+                "application": {
+                    "mostPermissiveRole": "ADMIN",
+                    "id": "7dc9e3ab-922d-4ae4-9fba-8a777fdf968d",
+                    "name": "nosql-injection-vulnapp-mongodb-java",
+                    "isLicensed": true,
+                    "language": "Java",
+                    "contextPath": "/",
+                    "importance": "MEDIUM",
+                    "isParentApp": false
+                },
+                "lastDetected": 1680404160000,
+                "firstDetected": 1680403980000,
+                "status": "Reported",
+                "subStatus": "",
+                "violations": [],
+                "sessionMetadata": []
+            }
+        }
+    ],
+    "count": 6,
+    "licensedVulnerabilityCount": 6
+}

@@ -1,0 +1,27 @@
+> snyk code test  
+
+Testing /home/atwlam/Git/nosql-injection-vulnapp ...
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: src/main/java/demo/nosqlinjectionvulnerableapp/config/WebSecurityConfig.java, line 22 
+   Info: Do not hardcode passwords in code. Found password string
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: src/main/java/demo/nosqlinjectionvulnerableapp/config/WebSecurityConfig.java, line 22 
+   Info: Do not hardcode passwords in code. Found password string
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: src/main/java/demo/nosqlinjectionvulnerableapp/config/WebSecurityConfig.java, line 22 
+   Info: Do not hardcode passwords in code. Found password string
+
+
+✔ Test completed
+
+Organization:      towailam3
+Test type:         Static code analysis
+Project path:      /home/atwlam/Git/nosql-injection-vulnapp
+
+Summary:
+
+  3 Code issues found
+  3 [Medium] 
